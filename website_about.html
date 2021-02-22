@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+
+{% block main %}
+<h1>ABOUT</h1>
+<h2>実績</h2>
+<p>これまでに{{ num_services|intcomma }}個のサービスを作りました！</p>
+<h2>スキル</h2>
+<ul>
+    <li>Python</li>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+{% endblock %}
